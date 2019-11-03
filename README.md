@@ -24,6 +24,12 @@ By the help of C++ programming language, we can develop different types of secur
 - **dataType.cpp** - Prints size of different data types.
 - **variable.cpp** - Store values in different variables.
 - **variable1.cpp** - Store values in different variables using stdio header.
+-  **const.cpp** - Demostrated about const.
+- **array.cpp** - Demonstated array type.
+- **2darray.cpp** - Demonstated 2D array type.
+- **vector.cpp** - Demonstrate Vector data type.
+- **vector.cpp** - Demonstrate list data type.
+- **map.cpp** - Demonstrate map data type.
 - **read.cpp** - For reading inputs. 
 - **read1.cpp** - For reading inputs using stdheader.
 - **operators.cpp** - Types of operators.
@@ -32,9 +38,18 @@ By the help of C++ programming language, we can develop different types of secur
 - **loops1.cpp** - Controlling loops execution (break and continue).
 - **function.cpp** - Demonstrate to create and call interger multiplication function.
 - **functionOverloading.cpp** - Demonstrate function overloading.
+- **exit.cpp** - To quit program.
+- **file.cpp** -  Opening and writing file.
+- **filer.cpp** -  Opening and reading file.
 - **headerDemo.cpp** - Demonstrate how to call user defined header function from main.
 - **cpp2cpp.cpp** - Communication of one cpp to another cpp, for execution use `g++ cpp2cpp.cpp headers/function.cpp`.
 - **class.cpp** - Demonstrated how to create student class  with setters and getters.
 - **constructorOverloading.cpp** - Demonstrated constructor overloading
 - **accessSpecifier.cpp** - Encapsulation
- 
+- **stringManipulation.cpp** - Demonstration of applying string manipulation functions.
+- **destructor.cpp** - Demonstration of how destructors work.
+ - **struct.cpp** - Demonstration of  struct.
+ - **cli.cpp** - Command line arguments.
+ - **For Saving complied code** -  use `g++ <filename>.cpp -o <outFilename>`.
+ - **pointer.cpp** - Demonstrate pointer as memory acccesss.
+ - **memory.cpp** - Demonstrated memory management using calloc,malloc and realloc.
