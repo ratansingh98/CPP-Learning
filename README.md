@@ -53,3 +53,16 @@ By the help of C++ programming language, we can develop different types of secur
  - **For Saving complied code** -  use `g++ <filename>.cpp -o <outFilename>`.
  - **pointer.cpp** - Demonstrate pointer as memory acccesss.
  - **memory.cpp** - Demonstrated memory management using calloc,malloc and realloc.
+
+
+ ## 2. Modern CPP
+- **assertions.cpp** - Assert will terminate the program if its argument turns out to be false.
+- **gdb.cpp** - #######.
+- **memCheck.cpp** - ####### use valgrind.
+
+
+ ## 3. Threading and makefile
+ - **basic.cpp** - Basics to use threading.
+
+
+
