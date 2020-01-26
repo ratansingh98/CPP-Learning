@@ -12,6 +12,7 @@ using namespace std;
 mutex values_mtx; // For global vector
 mutex cout_mtx;  // For cout, cause this program is not thread safe
 vector<int> values;
+mutex fun_lock;
 
 int randGen(const int& min, const int& max) {
     static thread_local mt19937 generator(hash<thread::id>()(this_thread::get_id())); // 19937 bit generator
@@ -19,7 +20,9 @@ int randGen(const int& min, const int& max) {
     return distribution(generator);
 }
 
+// Here we used fun_lock so that thread can access one function at a time.
 void threadFnc(int tid) {
+    fun_lock.lock();
 	// Calculate the result.
 
     // Cout lock and unlock are used so that code only executes again if lock was unlocked.
@@ -42,6 +45,8 @@ void threadFnc(int tid) {
 	values_mtx.lock();
 	values.push_back(val);
 	values_mtx.unlock();
+
+    fun_lock.unlock();
 }
 
 

@@ -57,12 +57,14 @@ By the help of C++ programming language, we can develop different types of secur
 
  ## 2. Modern CPP
 - **assertions.cpp** - Assert will terminate the program if its argument turns out to be false.
-- **gdb.cpp** - #######.
-- **memCheck.cpp** - ####### use valgrind.
+- **gdb.cpp** - Terminal Based debugger.
+- **memCheck.cpp** - Using valgrind to run memcheck on verify.cpp.
 
 
  ## 3. Threading and makefile
+ - **thread_id.cpp** - Obtainting id of thread process and number of threads available in cpu.
  - **basic.cpp** - Basics to use threading.
+ - **Makefile** - Basics to use threading.
 
 
 
