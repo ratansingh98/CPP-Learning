@@ -19,11 +19,12 @@ By the help of C++ programming language, we can develop different types of secur
 
 ## 1.Basics
 - **print.cpp** - Printing string program using iostream.
--  **print1.cpp** - Printing string without using namespace and iostream.
- -  **print1.cpp** - Printing string without using stdio header.
+- **print1.cpp** - Printing string without using namespace and iostream.
+ - **print1.cpp** - Printing string without using stdio header.
 - **dataType.cpp** - Prints size of different data types.
+- **integer.cpp** - Prints size of different data types of integer.
+- **integer1.cpp** - Type conversion frpm binary to integer.
 - **variable.cpp** - Store values in different variables.
-- **variable1.cpp** - Store values in different variables using stdio header.
 -  **const.cpp** - Demostrated about const.
 - **array.cpp** - Demonstated array type.
 - **2darray.cpp** - Demonstated 2D array type.
@@ -36,6 +37,7 @@ By the help of C++ programming language, we can develop different types of secur
 - **condition.cpp** - Different conditional statements.
 - **loops.cpp** - Different types of loop.
 - **loops1.cpp** - Controlling loops execution (break and continue).
+- **range.cpp** - Iteration using range.
 - **function.cpp** - Demonstrate to create and call interger multiplication function.
 - **functionOverloading.cpp** - Demonstrate function overloading.
 - **exit.cpp** - To quit program.
@@ -48,11 +50,13 @@ By the help of C++ programming language, we can develop different types of secur
 - **accessSpecifier.cpp** - Encapsulation
 - **stringManipulation.cpp** - Demonstration of applying string manipulation functions.
 - **destructor.cpp** - Demonstration of how destructors work.
- - **struct.cpp** - Demonstration of  struct.
- - **cli.cpp** - Command line arguments.
- - **For Saving complied code** -  use `g++ <filename>.cpp -o <outFilename>`.
- - **pointer.cpp** - Demonstrate pointer as memory acccesss.
- - **memory.cpp** - Demonstrated memory management using calloc,malloc and realloc.
+- **struct.cpp** - Demonstration of  struct.
+- **cli.cpp** - Command line arguments.
+- **For Saving complied code** -  use `g++ <filename>.cpp -o <outFilename>`.
+- **pointer.cpp** - Demonstrate pointer and reference for memory acccesss.
+- **arrayPointer.cpp** - Demonstrate array using pointer.
+- **rangeAndPointer.cpp** - Demonstrate array using pointer.
+- **memory.cpp** - Demonstrated memory management using calloc,malloc and realloc.
 
 
  ## 2. Modern CPP
