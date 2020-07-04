@@ -37,7 +37,7 @@ By the help of C++ programming language, we can develop different types of secur
 - **operators.cpp** - Types of operators.
 - **bitwise.cpp** - Demonstrate bitwise operation.
 - **condition.cpp** - Different conditional statements.
-- **PostAndPre.cpp** - Demonstrated post and pre increment of integer variable.
+- **postAndPre.cpp** - Demonstrated post and pre increment of integer variable.
 - **loops.cpp** - Different types of loop.
 - **loops1.cpp** - Controlling loops execution (break and continue).
 - **range.cpp** - Iteration using range.
@@ -62,8 +62,23 @@ By the help of C++ programming language, we can develop different types of secur
 - **exception.cpp** - Demonstrate try and catch block to catch exception.
 - **memory.cpp** - Demonstrated memory management using calloc,malloc and realloc.
 
+ ## 2. Intermediate CPP
+- **enum.cpp** -  Demonstrated concept of enum.
+- **auto.cpp** -  Demonstrated concept of type inference using auto keyword.
+- **stackAndHeap.cpp** - Demonstrated concept of stack and heap in term of memory.
+- **stackAndPointer.cpp** - Demonstrated relation of structure and pointers.
+- **function1.cpp** - Demonstrated function who uses pass by value.
+- **function2.cpp** - Demonstrated function who uses pass by reference.
+- **functionalPointer.cpp** - Assigning address of function to a pointer variable.
+- **nullptr.cpp** - Demonstrated null pointer.
+- **recursion.cpp** - Demonstrated recursion function.
+- **template.cpp** - Demonstrated template functions.
+- **variadicAndRecursion.cpp** - Demonstrated template functions which uses variadic(allow to have multiple inputs).
+- **macros.cpp** - Demonstrated macros.
 
- ## 2. Advance CPP
+
+
+ ## 3. Advance CPP
 - **qualifier** - There are 2 type of qualifier :- Modification and life duration qualifiers 
 - **Modification qualifiers** - There are 3 type of Modification qualifier :- Const, volatile, mutable
 - **Life duration qualifiers** - There are 3 type of Life duration qualifiers :- static, register, extern
@@ -78,7 +93,7 @@ By the help of C++ programming language, we can develop different types of secur
 - **memCheck.cpp** - Using valgrind to run memcheck on verify.cpp.
 
 
- ## 3. Threading and makefile
+ ## 4. Threading and makefile
  - **thread_id.cpp** - Obtainting id of thread process and number of threads available in cpu.
  - **basic.cpp** - Basics to use threading.
  - **Makefile** - Basics to use threading.
