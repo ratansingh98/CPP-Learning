@@ -48,11 +48,7 @@ By the help of C++ programming language, we can develop different types of secur
 - **filer.cpp** -  Opening and reading file.
 - **headerDemo.cpp** - Demonstrate how to call user defined header function from main.
 - **cpp2cpp.cpp** - Communication of one cpp to another cpp, for execution use `g++ cpp2cpp.cpp headers/function.cpp`.
-- **class.cpp** - Demonstrated how to create student class  with setters and getters.
-- **constructorOverloading.cpp** - Demonstrated constructor overloading
-- **accessSpecifier.cpp** - Encapsulation
 - **stringManipulation.cpp** - Demonstration of applying string manipulation functions.
-- **destructor.cpp** - Demonstration of how destructors work.
 - **struct.cpp** - Demonstration of  struct.
 - **cli.cpp** - Command line arguments.
 - **For Saving complied code** -  use `g++ <filename>.cpp -o <outFilename>`.
@@ -61,6 +57,7 @@ By the help of C++ programming language, we can develop different types of secur
 - **rangeAndPointer.cpp** - Demonstrate array using pointer and range.
 - **exception.cpp** - Demonstrate try and catch block to catch exception.
 - **memory.cpp** - Demonstrated memory management using calloc,malloc and realloc.
+
 
  ## 2. Intermediate CPP
 - **enum.cpp** -  Demonstrated concept of enum.
@@ -78,7 +75,19 @@ By the help of C++ programming language, we can develop different types of secur
 
 
 
- ## 3. Advance CPP
+ ## 3. Object Oriented Concept
+- **Abstraction** - Its main goal is to handle complexity by hiding unnecessary details from the user.
+- **class.cpp** - Demonstrated how to create student class  with setters and getters.
+- **constructorOverloading.cpp** - Demonstrated constructor overloading
+- **accessSpecifier.cpp** - Encapsulation
+- **friend.cpp** - Used setter and getters as friend function to a private variable.
+- **destructor.cpp** - Demonstration of how destructors work.
+- **copyConstructor.cpp** - Demonstration to override constructor, parameter constructor and copy constructor. 
+- **this.cpp** - This keyword is used for self referencing inside a class.
+
+
+
+ ## 4. Advance CPP
 - **qualifier** - There are 2 type of qualifier :- Modification and life duration qualifiers 
 - **Modification qualifiers** - There are 3 type of Modification qualifier :- Const, volatile, mutable
 - **Life duration qualifiers** - There are 3 type of Life duration qualifiers :- static, register, extern
@@ -93,7 +102,7 @@ By the help of C++ programming language, we can develop different types of secur
 - **memCheck.cpp** - Using valgrind to run memcheck on verify.cpp.
 
 
- ## 4. Threading and makefile
+ ## 5. Threading and makefile
  - **thread_id.cpp** - Obtainting id of thread process and number of threads available in cpu.
  - **basic.cpp** - Basics to use threading.
  - **Makefile** - Basics to use threading.

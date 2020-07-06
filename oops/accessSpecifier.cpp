@@ -7,7 +7,7 @@ class Encapsulation
     private: 
         // data hidden from outside world 
         int x; 
-          
+
     public: 
         // function to set value of  
         // variable x 
@@ -15,7 +15,7 @@ class Encapsulation
         { 
             x =a; 
         } 
-          
+
         // function to return value of 
         // variable x 
         int get() 
@@ -23,12 +23,12 @@ class Encapsulation
             return x; 
         } 
 }; 
-  
+
 // main function 
 int main() 
 { 
     Encapsulation obj; 
-      
+
     obj.set(5);   
     cout<<obj.get()<<endl; 
     return 0; 
