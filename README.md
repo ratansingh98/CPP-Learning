@@ -78,12 +78,16 @@ By the help of C++ programming language, we can develop different types of secur
  ## 3. Object Oriented Concept
 - **Abstraction** - Its main goal is to handle complexity by hiding unnecessary details from the user.
 - **class.cpp** - Demonstrated how to create student class  with setters and getters.
+- **this.cpp** - This keyword is used for self referencing inside a class.
 - **constructorOverloading.cpp** - Demonstrated constructor overloading
-- **accessSpecifier.cpp** - Encapsulation
+- **accessSpecifier.cpp** - Uses concept of encapsulation, demonstrated through public and private.(Except protected).
 - **friend.cpp** - Used setter and getters as friend function to a private variable.
 - **destructor.cpp** - Demonstration of how destructors work.
 - **copyConstructor.cpp** - Demonstration to override constructor, parameter constructor and copy constructor. 
-- **this.cpp** - This keyword is used for self referencing inside a class.
+- **overloading.cpp** - Demonstrated concept of method overloading.
+- **multipleInheritance.cpp** - Demonstrated concept of multiple inheritance.
+- **virtual.cpp** - Demonstrated the use of virtual keyword.
+
 
 
 
