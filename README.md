@@ -104,6 +104,10 @@ By the help of C++ programming language, we can develop different types of secur
 - **assertions.cpp** - Assert will terminate the program if its argument turns out to be false.
 - **gdb.cpp** - Terminal Based debugger.
 - **memCheck.cpp** - Using valgrind to run memcheck on verify.cpp.
+- **uniquePointer.cpp** -  Demonstrated unique smart pointer. Memory get free as scope ends and this pointers cannot have copy of them.
+- **sharedPointer.cpp** -  Demonstrated shared smart pointer. Memory get free as scope ends and this pointers can have copy of them.
+- **weakPointer.cpp** -  Demonstrated weak smart pointer. Memory get free as scope ends and this pointers can have copy of them.
+
 
 
  ## 5. Threading and makefile
