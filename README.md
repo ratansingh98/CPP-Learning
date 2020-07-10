@@ -29,37 +29,36 @@ By the help of C++ programming language, we can develop different types of secur
 - **const.cpp** - Demonstrated about const.
 - **array.cpp** - Demonstrated array type.
 - **2darray.cpp** - Demonstrated 2D array type.
-- **vector.cpp** - Demonstrate Vector data type.
-- **vector.cpp** - Demonstrate list data type.
-- **map.cpp** - Demonstrate map data type.
 - **read.cpp** - For reading inputs. 
 - **read1.cpp** - For reading inputs using stdheader.
 - **operators.cpp** - Types of operators.
-- **bitwise.cpp** - Demonstrate bitwise operation.
+- **bitwise.cpp** - Demonstrated bitwise operation.
 - **condition.cpp** - Different conditional statements.
 - **postAndPre.cpp** - Demonstrated post and pre increment of integer variable.
 - **loops.cpp** - Different types of loop.
 - **loops1.cpp** - Controlling loops execution (break and continue).
 - **range.cpp** - Iteration using range.
-- **function.cpp** - Demonstrate to create and call integer multiplication function.
-- **functionOverloading.cpp** - Demonstrate function overloading.
+- **function.cpp** - Demonstrated to create and call integer multiplication function.
+- **functionOverloading.cpp** - Demonstrated function overloading.
 - **exit.cpp** - To quit program.
-- **file.cpp** -  Opening and writing file.
-- **filer.cpp** -  Opening and reading file.
-- **headerDemo.cpp** - Demonstrate how to call user defined header function from main.
+- **file.cpp** -  Opening and writing file using fstream.
+- **filer.cpp** -  Opening and reading file using fstream.
+- **headerDemo.cpp** - Demonstrated how to call user defined header function from main.
 - **cpp2cpp.cpp** - Communication of one cpp to another cpp, for execution use `g++ cpp2cpp.cpp headers/function.cpp`.
 - **stringManipulation.cpp** - Demonstration of applying string manipulation functions.
 - **struct.cpp** - Demonstration of  struct.
 - **cli.cpp** - Command line arguments.
 - **For Saving complied code** -  use `g++ <filename>.cpp -o <outFilename>`.
-- **pointer.cpp** - Demonstrate pointer and reference for memory access.
-- **arrayPointer.cpp** - Demonstrate array using pointer.
-- **rangeAndPointer.cpp** - Demonstrate array using pointer and range.
-- **exception.cpp** - Demonstrate try and catch block to catch exception.
+- **pointer.cpp** - Demonstrated pointer and reference for memory access.
+- **arrayPointer.cpp** - Demonstrated array using pointer.
+- **rangeAndPointer.cpp** - Demonstrated array using pointer and range.
+- **exception.cpp** - Demonstrated try and catch block to catch exception.
 - **memory.cpp** - Demonstrated memory management using calloc,malloc and realloc.
 
 
  ## 2. Intermediate CPP
+- **file.cpp** -  Demonstrated create, rename and delete file.
+- **file2.cpp** - Demonstrated reading and writing into file.
 - **enum.cpp** -  Demonstrated concept of enum.
 - **auto.cpp** -  Demonstrated concept of type inference using auto keyword.
 - **stackAndHeap.cpp** - Demonstrated concept of stack and heap in term of memory.
@@ -69,9 +68,10 @@ By the help of C++ programming language, we can develop different types of secur
 - **functionalPointer.cpp** - Assigning address of function to a pointer variable.
 - **nullptr.cpp** - Demonstrated null pointer.
 - **recursion.cpp** - Demonstrated recursion function.
-- **template.cpp** - Demonstrated template functions.
+- **template.cpp** - Demonstrated template functions which is a part of generic programming.
 - **variadicAndRecursion.cpp** - Demonstrated template functions which uses variadic(allow to have multiple inputs).
 - **macros.cpp** - Demonstrated macros.
+- **lambda.cpp** - Demonstrated different types of lambda functions.
 
 
 
@@ -107,11 +107,22 @@ By the help of C++ programming language, we can develop different types of secur
 - **uniquePointer.cpp** -  Demonstrated unique smart pointer. Memory get free as scope ends and this pointers cannot have copy of them.
 - **sharedPointer.cpp** -  Demonstrated shared smart pointer. Memory get free as scope ends and this pointers can have copy of them.
 - **weakPointer.cpp** -  Demonstrated weak smart pointer. Memory get free as scope ends and this pointers can have copy of them.
+- **moveSemantics.cpp** -  Demonstrated best way of swapping variable with better memory management.
+- **functor.cpp** -  Demonstrated use of functor.
+
+ ## 5. STL
+- **vector.cpp** - Demonstrated Vector data type.
+- **list.cpp** - Demonstrated list data type.
+- **map.cpp** - Demonstrated map data type.
+- **sort.cpp** - Demonstrated performing sort operation using STL
+- **search.cpp** - Demonstrated usage of STL for performing search operations.
+- **partition.cpp** - Demonstrated partition and stable_partition through STL.
+- **transform.cpp** - Demonstrated partition and stable_partition through STL. It is used to perform an operation on all elements.
 
 
 
- ## 5. Threading and makefile
- - **thread_id.cpp** - Obtainting id of thread process and number of threads available in cpu.
+ ## 6. Threading and makefile
+ - **thread_id.cpp** - Obtaining id of thread process and number of threads available in cpu.
  - **basic.cpp** - Basics to use threading.
  - **Makefile** - Basics to use threading.
 
