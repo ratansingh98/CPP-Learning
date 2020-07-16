@@ -126,5 +126,7 @@ By the help of C++ programming language, we can develop different types of secur
  - **basic.cpp** - Basics to use threading.
  - **Makefile** - Basics to use threading.
 
+## 7. Algorithm
+- **pattern** - Consist code to print different types of patterns.
 
 
